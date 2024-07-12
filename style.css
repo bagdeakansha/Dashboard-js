@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: gray; */
+}
+body{
+    background-color: rgb(232, 230, 230);
+}
+.div1{
+    height: 10vh;
+    width: 170vh;
+    /* background-color: rgb(193, 193, 174); */
+    /* background-color: rgb(157, 157, 152); */
+    /* background-color: rgb(62, 56, 56); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1300px; */
+    /* box-shadow: 2px 8px 4px rgb(34, 33, 33); */
+    /* background-color: black; */
+    background-color: rgb(10, 10, 32);
+    
+    
+    
+}
+.div1 i{
+    margin-right: 50px;
+}
+/* .main{
+    /* background-color: black; */
+    /* color: white;
+} */ 
+#search{
+    margin: auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 180px;
+    border-radius: 10px;
+}
+
+.div1 h1{
+    margin-left: 20px;
+    
+}
+.div1 h2{
+    margin-right: 20px;
+}
+.div2{
+    display: flex;
+    
+}
+.div3{
+    
+    height: 100vh;
+    width: 50vh;
+    /* background-color: black; */
+    background-color: rgb(10, 10, 32);
+    /* background-color: rgb(31, 30, 30); */
+    /* box-shadow: 10px 4px 4px rgb(34, 33, 33); */
+}
+#icon{
+    border-radius: 50%;
+    /* padding-top: 30px; */
+    background-color: rgb(135, 128, 128);
+    height: 20vh;
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+}
+#icon i{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 120px;
+    color: black;
+}
+.div3 h1{
+    color: aliceblue;
+    text-align: center;
+    /* padding: 50px; */
+    margin-bottom: 40px;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 700;
+    
+    
+}
+.div3 ul li {
+    color: aliceblue;
+    /* color: rgb(106, 103, 99); */
+    padding-top: 50px;
+    list-style: none;
+    font-size: 30px;
+    text-align: left;
+    /* border:2px solid rgb(53, 48, 48); */
+    /* box-shadow: 1px 1px 6px rgb(47, 45, 45); */
+    padding: 20px;
+    /* margin-top: 20px; */
+    
+    
+}
+.div3 ul li a{
+    /* color: aliceblue; */
+    color: rgb(106, 103, 99);
+    list-style: none;
+    /* text-decoration: line-through; */
+    text-decoration-line:none ; 
+    
+}
+.div3 ul li a:hover{
+    color: aliceblue;
+}
+i{
+    font-size: 25px;
+    color: rgb(106, 103, 99);
+}
+i:hover{
+    color: aliceblue;
+}
+/* .div4{
+    margin-left: 280px;
+    background-color: rgb(52, 46, 46);
+    height: 80vh;
+    margin-top: 35px;
+    /* align-items: center; */
+#d1{
+    margin: 20px;
+    /* margin-left: 10px; */
+   
+}  
+
+table{
+    /* align-items: center; */
+    
+    width: 70vh;
+    margin-top: 80px;
+    margin-left: 155px;
+   
+    border: 5px solid rgb(53, 45, 45);
+    /* margin-top: 150px; */
+    
+}
+thead th{
+    padding: 20px;
+    border: 2px solid black;
+    /* background-color: rgb(120, 104, 104); */
+    background-color: rgb(73, 60, 60);
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+td{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* background-color: rgb(115, 108, 108); */
+}
+.d2{
+    display: flex;
+    
+}
+.d3{
+    
+    height: 100vh;
+    width: 42vh;
+    background-color: rgb(62, 56, 56);
+    /* background-color: rgb(31, 30, 30); */
+    box-shadow: 10px 4px 4px rgb(34, 33, 33);
+}
+.d3 h1{
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    
+}
+.d3 ul li {
+    color: aliceblue;
+    padding-top: 50px;
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    border:2px solid rgb(53, 48, 48);
+    box-shadow: 1px 1px 6px rgb(47, 45, 45);
+    padding: 20px;
+    /* margin-top: 20px; */
+    
+    
+}
+.d3 ul li a{
+    color: aliceblue;
+    list-style: none;
+    /* text-decoration: line-through; */
+    text-decoration-line:none ; 
+    
+}
+.d1{
+    height: 10vh;
+    width: 170vh;
+    /* background-color: rgb(193, 193, 174); */
+    /* background-color: rgb(157, 157, 152); */
+    background-color: rgb(62, 56, 56);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1300px; */
+    box-shadow: 2px 8px 4px rgb(34, 33, 33);
+    
+    
+}
+.d1 h1{
+    margin-left: 20px;
+    
+}
+.d1 h2{
+    margin-right: 20px;
+}
+#d11{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: rgb(68, 60, 60);
+    width: 550px;
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 4px 4px black;
+    
+}
+#id{
+    margin: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+}
+#stname{
+    margin: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+
+}
+#city{
+    margin: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+
+}
+#marks{
+    margin: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+
+}
+#age{
+    margin: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+
+}
+#h1{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+/* #btn{
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    background-color: rgb(243, 8, 8);
+    color: black;
+    border-radius: 10px;
+    
+
+} */
+#btn{
+    color:red;
+}
+#btn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#btn1{
+    color: green;
+    
+
+}
+#btn2{
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    background-color: black;
+    color: grey;
+    border-radius: 10px;
+    
+
+}
+#btn:hover{
+    box-shadow: 2px 4px 4px rgb(97, 91, 91);
+}
+#imgg{
+    margin: 50px;
+    margin-left: 280px;
+    
+}
+.form{
+    /* display: none; */
+    text-align: end;
+   /* display: flex; */
+   position: relative;
+   bottom: 250px;
+   margin: 20px;
+}
+.main{
+    background-color: black;
+    color: white;
+}
